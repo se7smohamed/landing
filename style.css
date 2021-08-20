@@ -70,8 +70,8 @@ body {
   height: 100vh;
   /* background-image: url("/bg.jpg");*/
   /* background-image: url("/pyrs.jpg"); */
-  background-image: url("/p1.jpg");
-  background-image: url("/u2.png");
+  /* background-image: url("/p1.jpg"); */
+  background-image: url("./u2.png");
   background-size: contain;
   /* background-clip: border-box; */
   background-repeat: no-repeat;
@@ -80,7 +80,6 @@ body {
   filter: opacity(0.5);
   /* filter: blur(1); */
   pointer-events: none;
-
 }
 
 .home {
