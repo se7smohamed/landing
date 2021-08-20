@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+}
+.container-80 {
+  width: 80%;
+  margin: auto;
+  word-spacing: 3px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  /* text-align: center; */
+}
+
+.center-text {
+  text-align: center;
+}
+.container {
+  /* height: 100vh; */
+  /* min-width: 100vw; */
+  /* top: 0;
+  left: 0; */
+  /* background: red; */
+}
+
+.mgrs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.mgr {
+  margin-top: 30px;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  justify-content: center;
+}
+.mgr > span {
+  text-align: center;
+}
+.mgr-2 {
+  flex-basis: 50%;
+}
+.mgr-3 {
+  flex-basis: 30%;
+}
+
+.mgr-title {
+  color: #444;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("/bg.jpg");*/
+  /* background-image: url("/pyrs.jpg"); */
+  background-image: url("/p1.jpg");
+  background-image: url("/u2.png");
+  background-size: contain;
+  /* background-clip: border-box; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+  filter: opacity(0.5);
+  /* filter: blur(1); */
+  pointer-events: none;
+
+}
+
+.home {
+  padding-top: 5vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero-sub {
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+.sub-sub {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.hero-text {
+  /* position: absolute; */
+  /* top: 20vh; */
+  /* background: #4441;
+  padding: 5px; */
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.meet {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10vh;
+}
+.meet-sub {
+  margin-top: 3vh;
+}
+.mt {
+  margin-top: 20px;
+}
+
+iframe {
+  width: 80%;
+  height: 80%;
+}
+.map-page {
+  display: grid;
+  /* grid-template-columns: 4fr 3fr; */
+  place-items: center;
+}
+
+.sub {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.parallax-container {
+  height: 200px !important;
+  display: none;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos > img {
+  width: 150px;
+  /* height: 100px; */
+}
