@@ -81,6 +81,14 @@ body {
   min-height: 100vh;
 }
 
+.light-bg {
+  background-position: 40% 40% !important;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("p3.jpg");
+}
 .hero-sub {
   font-weight: 500;
   font-size: 1.9rem;
@@ -154,6 +162,13 @@ iframe {
 .map-link {
   color: hsl(229, 100%, 38%);
 }
+/* 
+.map-link {
+  color: hsl(0, 0%, 100%);
+  background: hsl(228, 100%, 40%);
+  padding: 10px;
+  border-radius: 5px;
+} */
 @media screen and (max-width: 900px) {
   .container {
     /* display: none; */
@@ -162,7 +177,7 @@ iframe {
   .meet-sub {
     margin-top: 1vh;
   }
-  iframe{
+  iframe {
     height: 30vh;
   }
 }
