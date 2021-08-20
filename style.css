@@ -13,9 +13,7 @@ body {
 .page {
   min-height: 100vh;
 }
-.container-80 {
-  width: 80%;
-  margin: auto;
+.welcome-msg {
   word-spacing: 3px;
   font-weight: 500;
   font-size: 1.2rem;
@@ -24,13 +22,6 @@ body {
 
 .center-text {
   text-align: center;
-}
-.container {
-  /* height: 100vh; */
-  /* min-width: 100vw; */
-  /* top: 0;
-  left: 0; */
-  /* background: red; */
 }
 
 .mgrs {
@@ -113,6 +104,21 @@ body {
   text-align: center;
   margin-top: 10vh;
 }
+
+.map-page {
+  /* grid-template-columns: 4fr 3fr; */
+  margin-top: 55px;
+  min-height: 30vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  /* place-items: center; */
+}
+.map-text {
+  display: block;
+  margin: 45px auto;
+  /* background: red; */
+}
 .meet-sub {
   margin-top: 3vh;
 }
@@ -123,11 +129,6 @@ body {
 iframe {
   width: 80%;
   height: 80%;
-}
-.map-page {
-  display: grid;
-  /* grid-template-columns: 4fr 3fr; */
-  place-items: center;
 }
 
 .sub {
@@ -148,4 +149,20 @@ iframe {
 .logos > img {
   width: 150px;
   /* height: 100px; */
+}
+
+.map-link {
+  color: hsl(229, 100%, 38%);
+}
+@media screen and (max-width: 900px) {
+  .container {
+    /* display: none; */
+    width: 85% !important;
+  }
+  .meet-sub {
+    margin-top: 1vh;
+  }
+  iframe{
+    height: 30vh;
+  }
 }
